@@ -23,5 +23,12 @@ namespace WPFSolution
         {
             InitializeComponent();
         }
+
+        private void buttonVoltarCadastrarONG_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            this.Close();
+        }
     }
 }

@@ -25,6 +25,32 @@ namespace WPFSolution
             InitializeComponent();
         }
 
-    
+        private void buttonCadastrarLivro_Click(object sender, RoutedEventArgs e)
+        {
+            CadastrarLivro cadLivro = new CadastrarLivro();
+            cadLivro.Show();
+            this.Close();
+        }
+
+        private void buttonCadastrarDoador_Click(object sender, RoutedEventArgs e)
+        {
+            CadastrarDoador cadDoador = new CadastrarDoador();
+            cadDoador.Show();
+            this.Close();
+        }
+
+        private void buttonCadastrarOng_Click(object sender, RoutedEventArgs e)
+        {
+            CadastrarONG cadOng = new CadastrarONG();
+            cadOng.Show();
+            this.Close();
+        }
+
+        private void buttonRelatorios_Click(object sender, RoutedEventArgs e)
+        {
+            Relatorios rel = new Relatorios();
+            rel.Show();
+            this.Close();
+        }
     }
 }

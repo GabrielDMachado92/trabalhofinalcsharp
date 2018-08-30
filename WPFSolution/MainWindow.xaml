@@ -8,8 +8,9 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Label x:Name="label" Content="O que você quer fazer?" HorizontalAlignment="Left" Margin="150,10,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Button x:Name="buttonCadastrarLivro" Content="Cadastrar Livro" HorizontalAlignment="Left" Margin="50,90,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="buttonCadastrarOng" Content="Cadastrar ONG" HorizontalAlignment="Left" Margin="351,90,0,0" VerticalAlignment="Top" Width="102"/>
-        <Button x:Name="buttonCadastrarDoador" Content="Cadastrar Doador" HorizontalAlignment="Left" Margin="199,90,0,0" VerticalAlignment="Top" Width="109"/>
+        <Button x:Name="buttonCadastrarLivro" Content="Cadastrar Livro" HorizontalAlignment="Left" Margin="50,90,0,0" VerticalAlignment="Top" Width="100" Click="buttonCadastrarLivro_Click"/>
+        <Button x:Name="buttonCadastrarOng" Content="Cadastrar ONG" HorizontalAlignment="Left" Margin="351,90,0,0" VerticalAlignment="Top" Width="102" Click="buttonCadastrarOng_Click"/>
+        <Button x:Name="buttonCadastrarDoador" Content="Cadastrar Doador" HorizontalAlignment="Left" Margin="199,90,0,0" VerticalAlignment="Top" Width="109" Click="buttonCadastrarDoador_Click"/>
+        <Button x:Name="buttonRelatorios" Content="Relatorios" HorizontalAlignment="Left" Margin="210,140,0,0" VerticalAlignment="Top" Width="75" Click="buttonRelatorios_Click"/>
     </Grid>
 </Window>

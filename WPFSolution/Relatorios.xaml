@@ -12,7 +12,7 @@
         <DataGrid x:Name="dataGridOng" HorizontalAlignment="Left" Height="212" Margin="270,75,0,0" VerticalAlignment="Top" Width="215"/>
         <Label x:Name="labelRelatorioDoador" Content="Ranking de livros doados" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.211,-0.346"/>
         <Label x:Name="labelRelatorioONG" Content="Ranking de livros recebidos" HorizontalAlignment="Left" Margin="270,49,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="buttonVoltarRelatorios" Content="Voltar" HorizontalAlignment="Left" Margin="216,292,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="buttonVoltarRelatorios" Content="Voltar" HorizontalAlignment="Left" Margin="216,292,0,0" VerticalAlignment="Top" Width="75" Click="buttonVoltarRelatorios_Click"/>
 
     </Grid>
 </Window>

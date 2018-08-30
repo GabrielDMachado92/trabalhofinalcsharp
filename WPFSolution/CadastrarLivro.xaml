@@ -17,7 +17,7 @@
         <Label x:Name="labelOngCadastroDoador" Content="ONG" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.222,0.577"/>
         <ComboBox x:Name="comboBoxOngs" HorizontalAlignment="Left" Margin="65,146,0,0" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="buttonCadastrarLivro" Content="Cadastrar" HorizontalAlignment="Left" Margin="10,173,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="buttonVoltarCadastrarLivros" Content="Voltar" HorizontalAlignment="Left" Margin="110,173,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="buttonVoltarCadastrarLivros" Content="Voltar" HorizontalAlignment="Left" Margin="110,173,0,0" VerticalAlignment="Top" Width="75" Click="buttonVoltarCadastrarLivros_Click"/>
 
     </Grid>
 </Window>
