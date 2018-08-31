@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using WPFSolution.Models;
+using WPFSolution.Service;
 
 namespace WPFSolution
 {
@@ -38,6 +39,8 @@ namespace WPFSolution
             doador.Nome = textBoxNomeDoador.Text;
             doador.CPF = textBoxCPF.Text;
             doador.Idade = int.Parse(textBoxIdade.Text);
+
+            DBMock.DbDoadores.Add(doador);
 
             MessageBoxResult mbResult = MessageBox.Show("Doador cadastrado com sucesso, você quer ir a página de relatórios?", "Doacao Livros", MessageBoxButton.YesNo);
             switch (mbResult)

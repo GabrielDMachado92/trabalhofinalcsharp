@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using WPFSolution.Models;
+using WPFSolution.Service;
 
 namespace WPFSolution
 {
@@ -37,6 +38,8 @@ namespace WPFSolution
             Ong ong = new Ong();
             ong.Nome = textBoxCadastroONG.Text;
             ong.CNPJ= textBoxCnpjONG.Text;
+
+            DBMock.DbOng.Add(ong);
             
             MessageBoxResult mbResult = MessageBox.Show("ONG cadastrada com sucesso, você quer ir a página de relatórios?", "Doacao Livros", MessageBoxButton.YesNo);
             switch (mbResult)

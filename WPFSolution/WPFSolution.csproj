@@ -55,7 +55,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Models\Doador.cs" />
+    <Compile Include="Models\Livro.cs" />
     <Compile Include="Models\Ong.cs" />
+    <Compile Include="Service\DBMock.cs" />
     <Compile Include="View\Relatorios.xaml.cs">
       <DependentUpon>Relatorios.xaml</DependentUpon>
     </Compile>
