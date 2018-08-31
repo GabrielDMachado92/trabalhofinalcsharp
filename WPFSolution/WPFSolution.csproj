@@ -54,18 +54,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Relatorios.xaml.cs">
+    <Compile Include="Models\Doador.cs" />
+    <Compile Include="Models\Ong.cs" />
+    <Compile Include="View\Relatorios.xaml.cs">
       <DependentUpon>Relatorios.xaml</DependentUpon>
     </Compile>
-    <Page Include="CadastrarDoador.xaml">
+    <Page Include="View\CadastrarDoador.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CadastrarLivro.xaml">
+    <Page Include="View\CadastrarLivro.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CadastrarONG.xaml">
+    <Page Include="View\CadastrarONG.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -77,20 +79,20 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="CadastrarDoador.xaml.cs">
+    <Compile Include="View\CadastrarDoador.xaml.cs">
       <DependentUpon>CadastrarDoador.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CadastrarLivro.xaml.cs">
+    <Compile Include="View\CadastrarLivro.xaml.cs">
       <DependentUpon>CadastrarLivro.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CadastrarONG.xaml.cs">
+    <Compile Include="View\CadastrarONG.xaml.cs">
       <DependentUpon>CadastrarONG.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Relatorios.xaml">
+    <Page Include="View\Relatorios.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
